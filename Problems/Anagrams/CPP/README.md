@@ -1,14 +1,14 @@
 ## Approch, Sort, map
 
 ### Logic
-1. Sort each word and store count in map
+* 1. Sort each word and store count in map
 ```
 input:      {"rat", "cat", "bus", "art", "tar"}
 sorted:     {"art", "act", "bsu", "art", "art"}
 map:
   art,3 | act,1 | bsu,1
 ```
-2. Iterate thru original Dictionary, sort each word and search in map
+* 2. Iterate thru original Dictionary, sort each word and search in map
 ```
 input:      {"rat", "cat", "bus", "art", "tar"}
 word: rat => art, search art in map, if found push count on vector
